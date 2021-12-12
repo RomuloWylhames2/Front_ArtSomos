@@ -1,0 +1,62 @@
+.HeaderContent {
+  background-color: #eaf3eb;
+}
+.HeaderPrincipal {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderMain .utils {
+  display: flex;
+  gap: 30px;
+}
+
+.HeaderMain .utils img {
+  width: 38px;
+  height: 38px;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-header {
+  padding: 0 !important;
+}
+
+#basic-navbar-nav {
+  background: #eaf3eb;
+}
+
+.me-auto {
+  background: #dbf1dc;
+}
+
+@media screen and (min-width: 992px) {
+  .me-auto {
+    gap: 4em;
+  }
+}
+
+Form {
+  margin-bottom: 10px;
+}
+
+.bg-light {
+  background-color: initial !important;
+}

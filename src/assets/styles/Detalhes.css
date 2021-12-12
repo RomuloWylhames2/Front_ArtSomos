@@ -1,0 +1,42 @@
+.DetalhesContent {
+  padding: 40px 0;
+}
+
+.DetalhesContent .DetalhesContainer .col {
+  padding: 0;
+}
+
+.DetalhesContent .DetalhesContainer .CardContainer {
+  margin: 10px;
+}
+
+.DetalhesContent .DetalhesContainer .CardContent {
+  padding: 4px 20px;
+}
+
+.DetalhesContent .DetalhesContainer .CardImagem {
+  text-align: center;
+}
+
+.DetalhesContent .DetalhesContainer .CardImagem img {
+  width: 100%;
+}
+
+.DetalhesContent .CardContent .Titulo,
+.DetalhesContent .CardContent .Valor {
+  font-size: 22px;
+  font-weight: bold;
+  color: #329a35;
+}
+
+.DetalhesContent .CardContent .btn.btn-primary {
+  margin-top: 30px;
+  background-color: #dcc7b4;
+  color: black;
+  border-color: #dcc7b4;
+}
+
+.DetalhesContent .CardContent .btn.btn-primary img {
+  width: 35px;
+  padding-right: 10px;
+}

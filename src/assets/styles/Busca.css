@@ -1,0 +1,19 @@
+.pesquisa {
+  width: 14em;
+}
+
+.pesquisa input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.pesquisa input {
+  background: no-repeat;
+  border-radius: 50px;
+  border-color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
