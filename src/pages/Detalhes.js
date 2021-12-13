@@ -30,12 +30,12 @@ const Detalhes = () => {
           </Col>
           <Col className="col-lg-6 col-md-6 col-12">
             <div className="CardContent">
-              <p className="Titulo">{produtos.nome}</p>
-              <p className="Valor">R$ {produtos.preco}</p>
-              <p className="Parcelas">{produtos.parcela}</p>
-              <p><strong>Detalhes:</strong><br />{produtos.detalhes}</p>
-              <p>{produtos.encomenda}<br />{produtos.dias_producao}</p>
-              <p><strong>Categoria:</strong> {produtos.categoria}</p>
+              <p className="Titulo">{produtos?.nome}</p>
+              <p className="Valor">R$ {produtos?.preco}</p>
+              <p className="Parcelas">{produtos?.parcela}</p>
+              <p><strong>Detalhes:</strong><br />{produtos?.detalhes}</p>
+              <p>{produtos?.encomenda}<br />{produtos?.dias_producao}</p>
+              <p><strong>Categoria:</strong> {produtos?.categoria}</p>
               <a href="/" className="btn btn-primary mb-4"><img src={Cart} alt="Cart" /> Comprar este produto</a>
               <Input value={'Digite seu CEP'} classe={''} />
             </div>
