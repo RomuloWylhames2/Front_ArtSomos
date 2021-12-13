@@ -1,0 +1,10 @@
+.ConstrucaoContainer {
+    display: flex;
+    text-align: center;
+  }
+
+.Construcao img {
+    padding: 1em;
+    width: 9em;
+    height: 9em;
+}

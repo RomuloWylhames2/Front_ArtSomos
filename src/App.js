@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import Categorias from "pages/Categorias";
 import Contato from "pages/Contato";
 import Detalhes from "pages/Detalhes";
+import Construcao from "pages/Construcao";
 import NotFound from "pages/NotFound";
 import Produtos from "pages/Produtos";
 import Sobre from "pages/Sobre";
@@ -16,6 +17,7 @@ function App() {
       <div className="MainContent">
         <Routes>
           <Route path="/" exact element={<Produtos />} />
+          <Route path="/construcao" exact element={<Construcao />} />
           <Route path="/produto/:id" exact element={<Detalhes />} />
           <Route path="/categoria/:id" exact element={<Categorias />} />
           <Route path="/sobre" exact element={<Sobre />} />

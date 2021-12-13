@@ -28,15 +28,15 @@ const Header = () => {
             </a>
             <Input value={'Pesquisa'} classe={'hide-mobile'} className="hide-mobile" />
             <div className="utils">
-              <a href="/" rel="">
+              <Link to="/construcao" className="nav-link">
                 <img src={Cart} alt="Carrinho" />
-              </a>
-              <a  href="/" rel="">
+              </Link>
+              <Link to="/construcao" className="nav-link">
                 <img src={Chat} alt="Chat" />
-              </a>
-              <a href="/" rel="">
+              </Link>
+              <Link to="/construcao" className="nav-link">
                 <img src={User} alt="Usuário" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="menu">
@@ -54,14 +54,14 @@ const Header = () => {
                       </Link>
                     ))}
                   </NavDropdown>
-                  <Link to="/sobre" className="nav-link">
-                    Sobre Nós
-                  </Link>
                   <Link to="/" className="nav-link">
                     Ofertas
                   </Link>
                   <Link to="/contato" className="nav-link">
                     Contato
+                  </Link>
+                  <Link to="/sobre" className="nav-link">
+                    Sobre Nós
                   </Link>
                 </Nav>
               </Navbar.Collapse>
